@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <section>
+    <div class="container flex">
+      <div class="left">
+        <div class="main_image">
+          <img src="sq.webp" width="450" class="slide">
+        </div>
+      </div>
+      <div class="right">
+        <h3>BÍ MẬT CỦA MAY MẮN</h3>
+        <h4> <small>$</small>999.99 </h4>
+        <p class="at">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+        <p><strong>Tác giả:</strong> The Nhan</p>
+        <p><strong>Năm xuất bản:</strong> 2024</p>
+        <p><strong>IBSN:</strong> 737337743</p>
+        <p><strong>Nhà xuất bản:</strong> Kim Đồng</p>
+        <h5>Number</h5>
+        <div class="add flex1">
+          <span>-</span>
+          <label>1</label>
+          <span>+</span>
+        </div>
+        <form action="/create-payment-link" method="post">
+        <button>Mua ngay</button>
+        </form>
+      </div>
+    </div>
+  </section>
+  <script>
+    function img(anything) {
+      document.querySelector('.slide').src = anything;
+    }
+
+    function change(change) {
+      const line = document.querySelector('.home');
+      line.style.background = change;
+    }
+  </script>
+</body>
+
+</html>
